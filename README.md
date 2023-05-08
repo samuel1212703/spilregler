@@ -1,5 +1,7 @@
 # Dissenters Cookbook
-A collection of recipes, published fully open-source. 
+A collection of recipes, published fully open-source.
+
+Visit the page: https://samuel1212703.github.io/dissenterscookbook/
 
 # Notes
 * Rip the code if ya wanna
