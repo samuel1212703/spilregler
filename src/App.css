@@ -29,6 +29,19 @@
   mix-blend-mode: difference;
 }
 
+.no-recipes-text {
+  text-align: center;
+  color: brown;
+}
+
+.tools-buttons {
+  width: 90%;
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-bottom: 5px;
+  background-color: darkgreen;
+}
+
 .accordion-item {
   margin: 7px;
 }

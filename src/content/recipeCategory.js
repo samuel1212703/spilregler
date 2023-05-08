@@ -3,24 +3,7 @@
 export const recipeCategories = [
   {
     header: "Amphetamines",
-    recipes: [
-      {
-        name: "MDMA",
-        description: "",
-        contents: [
-          {
-            name: "Metylendioxymetamfetamin",
-            link: "https://da.wikipedia.org/wiki/MDMA",
-          },
-        ],
-        warnings: "",
-        equipment: ["1", "2"],
-        ingridients: ["1", "2", "3"],
-        steps: [""],
-        notes: "",
-        sources: [""],
-      },
-    ],
+    recipes: [],
   },
   {
     header: "Alcohol",
@@ -86,7 +69,7 @@ export const recipeCategories = [
     header: "Dissociatives",
     recipes: [
       {
-        name: "Salvia Divinorum",
+        name: "Salvia Divinorum (grow guide)",
         description: "",
         contents: [
           {
@@ -107,7 +90,7 @@ export const recipeCategories = [
     header: "Psychedelics",
     recipes: [
       {
-        name: "Amanita Muscaria (Citric Decarboxylation)",
+        name: "Amanita Muscaria (citric decarboxylation)",
         description:
           "Amanita Muscaria is a beautiful red mushroom, both poisonous and hallucinogenic. Follow the guide and unlock the plants potential. ",
         contents: [
@@ -121,7 +104,7 @@ export const recipeCategories = [
           },
         ],
         warnings:
-          "Amanita Muscaria is poisonous, hence the decarboxylation. Do not eat raw. Follow the guide and it should be fine.",
+          "Amanita Muscaria is poisonous, hence the decarboxylation. Do not eat raw.",
         equipment: [
           "Pot with lid",
           "Stove",
@@ -135,18 +118,33 @@ export const recipeCategories = [
           "Distilled water",
         ],
         steps: [
-          "Clean your Amanita Muscaria and cut them into pieces.",
-          "Optional - Measure the mushrooms and write down the weight.",
-          "Place the mushrooms in the pot.",
-          "Fill the pot with water and stir lightly.",
-          "Wait 10 minutes for the pH to adjust.",
-          "Add very small amounts of citric acid until the pH is between 2.5-3.",
-          "Put the lid on , boil the mix, and let it sit.",
-          "After 30 minutes, remove the mushrooms from the pot and sqeeze the liquid into the pot. The alkaloids are now in the liquid in the pot.",
-          "Check the pH value every half hour and make sure it is between 2.5 and 3 (add citric acid accordingly). You should measure the pH by moving a little liquid into a separate container and letting it cool, so the value will be accurate.",
-          "After having boiled for 3 hours total at the correct pH, lad the mixture cool.",
-          "Optional - Note the amount of liquid.",
-          "Set aside the liquid you need in the next week in the fridge. The rest can be put in the freezer (potion wise - icetray, small containers etc.).",
+          {
+            step: "Preparation",
+            sub_steps: [
+              "Clean your Amanita Muscaria and cut them into pieces.",
+              "Optional - Measure the mushrooms and write down the weight.",
+            ],
+          },
+          {
+            step: "Extract alkaloids",
+            sub_steps: [
+              "Place the mushroom pieces in the pot.",
+              "Fill the pot with water and stir lightly.",
+              "Wait 10 minutes for the pH to adjust.",
+              "Add very small amounts of citric acid until the pH is between 2.5-3.",
+              "Put the lid on , boil the mix, and let it sit.",
+              "After 30 minutes, remove the mushrooms from the pot and sqeeze the liquid into the pot. The alkaloids are now in the liquid in the pot.",
+            ],
+          },
+          {
+            step: "Decarboxylation",
+            sub_steps: [
+              "Check the pH value every half hour and make sure it is between 2.5 and 3 (add citric acid accordingly). You should measure the pH by moving a little liquid into a separate container and letting it cool, so the value will be accurate.",
+              "After having boiled for 3 hours total at the correct pH, let the mixture cool.",
+              "Optional - Note the amount of liquid.",
+            ],
+          },
+          "Set aside the liquid you plan to consume in the following week. The rest can be put in the freezer (potion wise - icetray, small containers etc.).",
         ],
         notes: "",
         sources: ["https://www.erowid.org/plants/amanitas/amanitas.shtml"],
@@ -227,7 +225,7 @@ export const recipeCategories = [
         ],
       },
       {
-        name: "Magic Mushrooms",
+        name: "Magic Mushrooms (grow guide)",
         description: "",
         contents: [
           {
@@ -243,7 +241,7 @@ export const recipeCategories = [
         sources: ["https://en.wikipedia.org/wiki/Psilocybin_mushroom"],
       },
       {
-        name: "Mescaline",
+        name: "Mescaline (San Pedro extraction)",
         description: "",
         contents: [
           {
